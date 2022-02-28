@@ -1,2 +1,2 @@
 # scripts
-Algunos scripts generales más pentesting 
+Algunos scripts generales más otros sobre pentesting 

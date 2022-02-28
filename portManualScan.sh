@@ -1,5 +1,4 @@
 #!/bin/bash
-
 if [ $1 ]; then
 	ip=$1
 	for port in $(seq 1 65535); do

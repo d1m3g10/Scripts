@@ -31,7 +31,7 @@ function killPythonServerHTTP80(){
 	kill -9 $(lsof -ti tcp:80)
 }
 
-
+#sleccionamos la ventana la cual queremos saber como se llama
 function selectorVentana(){
         xprop WM_CLASS
 }
@@ -41,10 +41,12 @@ function screenlock(){
         dm-tool lock
 }
 
+#VPN A UPU: nos conectamos a la VPN
 function upvup(){
         nmcli con up VPN\ a\ UPV -a
 }
 
+#VPN A UPU: nos desconectamos a la VPN
 function upvdown(){
         nmcli con down VPN\ a\ UPV -a
 }
